@@ -1,97 +1,76 @@
-# AI Personalized Landing Page Generator
+# AdSync AI 🚀
 
-AI-powered system that generates personalized landing pages by aligning advertisement creatives with existing landing page content using Conversion Rate Optimization (CRO) principles.
+AdSync AI is an AI-powered landing page personalization platform that transforms ad creatives, marketing text, and target URLs into high-converting customized landing pages.
 
----
-
-## 🚀 Overview
-
-This project enhances existing landing pages instead of generating completely new ones. It analyzes advertisement messaging and modifies landing page content to create a better message match, improve clarity, and increase conversion potential.
-
-The system accepts ad creatives (text, link, or image) along with a landing page URL and produces an AI-generated optimized HTML landing page.
+The system analyzes advertisements and existing web content to generate optimized user experiences using AI and Conversion Rate Optimization (CRO) principles.
 
 ---
 
-## ❌ Problem Statement
+## ✨ Features
 
-In digital marketing funnels, there is often a disconnect between:
-
-- Advertisement messaging
-- Landing page content
-
-This mismatch creates:
-
-- Poor user experience
-- Reduced trust
-- Lower conversion rates
-
----
-
-## ✅ Solution
-
-The system generates an improved landing page by:
-
-- Matching landing page messaging with advertisement intent
-- Improving content structure and readability
-- Applying CRO principles
-- Preserving core website context
-
-Instead of rebuilding pages from scratch, the AI enhances existing content using scraped website data.
+- 🎨 AI-generated landing pages
+- 📢 Ad creative analysis
+- 🌐 Website content extraction
+- 🧠 Smart personalization engine
+- 📈 Conversion-focused optimization
+- 🤖 AI chatbot integration
+- 📊 Analytics dashboard
+- 📰 Blog management system
+- 🖼 Upload logos and ad creatives
 
 ---
 
-# ✨ Features
+# 🖥 Screenshots
 
-- Input ad creative as:
-  - Text
-  - Link
-  - Image
-- Upload brand logo
-- Input landing page URL
-- AI-generated personalized landing page
-- Live preview using iframe
-- Download generated HTML
-- Image storage using Supabase
+## Homepage
+
+<img width="526" height="792" alt="Screenshot 2026-05-17 145918" src="https://github.com/user-attachments/assets/d29a9ace-857b-4710-b3c9-17af9cb418b9" />
 
 ---
 
-# 🛠️ Tech Stack
+## Generated Landing Page
+<img width="1267" height="731" alt="Screenshot 2026-05-17 150455" src="https://github.com/user-attachments/assets/347db2d6-ec55-48e4-a168-b95bc6d9369a" />
 
-## Backend
+
+---
+
+# 🎥 Demo Video
+
+
+
+https://github.com/user-attachments/assets/1845875f-4b4a-40e2-b616-4819122903dd
+
+
+
+---
+
+# 🛠 Tech Stack
+
 - Python
 - Django
-
-## AI
-- Mistral API
-
-## Web Scraping
-- Requests
-- BeautifulSoup
-
-## Storage
-- Supabase
-
-## Frontend
 - HTML
 - CSS
 - JavaScript
-
-## Deployment
-- Render
+- OpenAI API
+- Supabase
+- PostgreSQL
 
 ---
 
-# ⚙️ System Workflow
+# ⚙️ Installation
 
-```text
-User Input
-   ↓
-Ad Processing & Image Upload
-   ↓
-Website Scraping
-   ↓
-AI Prompt Generation
-   ↓
-HTML Generation
-   ↓
-Preview & Download
+```bash
+# Clone repository
+git clone https://github.com/yourusername/AdSync-AI.git
+
+# Move into project
+cd AdSync-AI
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run migrations
+python manage.py migrate
+
+# Start server
+python manage.py runserver
