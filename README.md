@@ -1,4 +1,9 @@
 # AdSync AI 🚀
+# 🎥 Demo Video
+
+
+
+https://github.com/user-attachments/assets/1845875f-4b4a-40e2-b616-4819122903dd
 
 AdSync AI is an AI-powered landing page personalization platform that transforms ad creatives, marketing text, and target URLs into high-converting customized landing pages.
 
@@ -34,11 +39,6 @@ The system analyzes advertisements and existing web content to generate optimize
 
 ---
 
-# 🎥 Demo Video
-
-
-
-https://github.com/user-attachments/assets/1845875f-4b4a-40e2-b616-4819122903dd
 
 
 
