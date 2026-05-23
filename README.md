@@ -21,7 +21,7 @@ The system analyzes advertisements and existing web content to generate optimize
 - 🤖 AI chatbot integration
 - 📊 Analytics dashboard
 - 📰 Blog management system
-- 🖼 Upload logos and ad creatives
+
 
 ---
 
